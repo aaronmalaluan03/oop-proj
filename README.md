@@ -101,3 +101,10 @@ is using it.
     <td><img src="ggs.png" width="580" height="580"> </td>
     </td>
 </tr>
+
+### Summary of Input data:
+<tr>
+    <td><img src="ggs2.png" width="580" height="580"> </td>
+    </td>
+</tr>
+
