@@ -1,14 +1,16 @@
 <h1 align = "center">E-ONE QUEUE</h1>
 <h3 align = "center">CICS ACADEMIC ATTENDANCE PORTAL – SYSTEM OVERVIEW.</h3>
 <p align = "center">
+<b></b> <br/>
 <b>IT 2109 </b> <br/>
+<b></b> <br/>
 Arevalo, John Paul <br/>
 Malaluan, Aaron <br/>
 Ramirez, Jhasper
 </p>
 
 --------------------------------------------------------------------------------
-## Overview
+## 📖 Overview
 The CICS Academic Attendance Portal is a console-based Java program designed for
 2nd Year IT students. It allows students to log their attendance per subject, while
 professors can view and filter attendance records. The system demonstrates strict OOP
@@ -40,9 +42,37 @@ who attended that class.
 - **Check for Absences:** Easily see if a student is still in class or forgot to sign out
 by looking for "N/A" in the list.
 
-## Data Storage Currently 
+## 💾 Data Storage Currently 
 all entries are stored in Volatile Memory (RAM) using a
 Student[] array. Note: Data resets when the application closes.
+
+### ⚙️ System Purpose
+The goal of this system is to stop using paper attendance sheets and use a computer
+instead. It helps students quickly record the exact time they enter the class and when
+they go home. A big part of the goal is to keep the list clean by forcing everyone to type
+their names in capital letters. This stops the teacher from struggling to read bad
+handwriting. It also keeps the records safe so that the attendance list never gets
+lost.zThe teacher can easily check who is in class just by typing a simple password.
+Overall, it is meant to make daily attendance faster and perfectly organized.
+
+### 📜 Features 
+**For the students:**
+- Log Time In: You can record the exact time you arrive at class.
+- Log Time Out: You can record the time you leave so the teacher knows you
+stayed for the whole class.
+- Personal History: You can search for your own name to double-check that your
+attendance was saved correctly.
+- Format Checker: The system stops you from making mistakes by forcing you to
+type in CAPITAL LETTERS.
+
+--------------------------------------------------------------------------------
+**For Professors:**
+- **Password Protection:** The teacher's menu is locked with a password
+(cics2025) so students cannot mess with the records.
+- **Class View:** The teacher can see a full list of every student who attended a
+specific subject.
+- **Missing Log Detection:** The teacher can easily see "N/A" next to a name if a
+student forgot to sign out.
 
 --------------------------------------------------------------------------------
 ## Project Structure
