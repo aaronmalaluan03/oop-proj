@@ -98,6 +98,6 @@ is using it.
 
 Example Output:
 <tr>
-    <a href="src/ggs.png"> </a>
+    <td><img src="oop-proj/ggs.png" width="100" height="100"> </td>
     </td>
 </tr>
