@@ -64,13 +64,13 @@ Student[] array. Note: Data resets when the application closes.
 - `AttendanceAction.class` - Compilation file of AttendanceAction class
 
 --------------------------------------------------------------------------------
-### ENCAPSULATION
+### 💊 ENCAPSULATION
 Encapsulation was applied by making variables like name, section,
 and timeInRecord private inside the Student class. These can only be accessed or
 changed using public methods (Getters).
 
 --------------------------------------------------------------------------------
-### ABSTRACTION
+### 💡 ABSTRACTION
 Abstraction was implemented using the SchoolMember abstract class. It
 defines that every user has a name, but it doesn't say how they use the portal. It also
 uses the AttendanceActions interface to force the Student class to have timeIn()
@@ -79,7 +79,7 @@ and timeOut() methods.
 This hides the complex details and just shows what the object does.
 
 --------------------------------------------------------------------------------
-### INHERITANCE
+### 🧬 INHERITANCE
 Inheritance is the core structure. Student and Professor both extend
 (inherit from) SchoolMember.
 
@@ -87,7 +87,7 @@ This means we didn't have to write the code for "Name" and "Role" twice. They bo
 it automatically from the parent class.
 
 --------------------------------------------------------------------------------
-### POLYMORPHISM
+### 🎭 POLYMORPHISM
 The method showPortal() demonstrates polymorphism. Both the
 Student and Professor have this method, but they behave differently.
 - If the user is a Student, showPortal shows the logging menu.
