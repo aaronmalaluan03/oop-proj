@@ -96,8 +96,8 @@ Student and Professor have this method, but they behave differently.
 The main program calls the same method name, but the result changes based on who
 is using it.
 
-Example Output:
+### Example Output:
 <tr>
-    <td><img src="oop-proj/ggs.png" width="100" height="100"> </td>
+    <td><img src="ggs.png" width="580" height="580"> </td>
     </td>
 </tr>
