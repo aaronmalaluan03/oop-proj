@@ -97,3 +97,7 @@ The main program calls the same method name, but the result changes based on who
 is using it.
 
 Example Output:
+<tr>
+    <a href="src/ggs.png"> </a>
+    </td>
+</tr>
